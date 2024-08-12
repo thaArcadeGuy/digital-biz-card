@@ -1,0 +1,145 @@
+body {
+    font-family: poppins, Helvetica, sans-serif;;
+    padding: 40px;
+}
+
+.card {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border: none;
+    background: #A3784E;
+    border-radius: 20px;
+    
+}
+
+/*Resizing images*/
+
+.main-img {
+    width: 200px;
+    height: 200px;
+}
+
+.x-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.in-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.insta-logo {
+    width: 28px;
+    height: 28px;
+}
+
+/*.head, .content-area {
+    border: 1px dotted blue;
+    background: greenyellow;
+}*/
+
+/*styling the left side content*/
+.head {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.main-img {
+    border: 2px solid #fdfdfd;
+    border-radius: 100%;
+}
+
+.head-titles h2 {
+    color: #fdfdfd;
+    font-size: 36px;
+    font-weight: 600px;
+    margin: 15px 0 17px;
+    line-height: 1.2ren; 
+}
+
+.head-titles p {
+    color: #bbb;
+    font-size: 16px;
+    font-weight: 300px;
+    margin: 5px 0;
+    line-height: 1.2rem;
+}
+
+.socials ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+  
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.btn {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.btn input[type="button"] {
+    border: 2px solid #fdfdfd;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    padding: 15px 30px;
+}
+
+
+.content-area {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: #361D0E;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.content-title {
+    color: #fdfdfd;
+    font-size: 40px;
+    font-weight: 600px;
+    margin: 5px 0;
+    line-height: 1.2rem;
+}
+
+.sub-title {
+    color: #bbb;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 1.2ren;
+    margin-top: -20px;
+}
+
+.btn a input[type="button"]:hover {
+    border: 2px solid #fdfdfd;
+    border-radius: 50px;
+    background: white;
+    color: #5796BB;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.socials a:hover {
+    background-color: #361D0E;
+}
+
+.attribution {
+    font-size: 11px;
+    color: hsl(228 45% 44%);
+    text-align: center;
+    margin-top: 80px;
+}
